@@ -1,5 +1,7 @@
 module.exports = {
-  purge: [],
+  content: [
+    './public/**/*.html'
+  ],
   theme: {
     extend: {
       colors: {
@@ -9,6 +11,9 @@ module.exports = {
           200: '#888883',
         }
       },
+      fontFamily: {
+        body: ['Nunito']
+      }
     },
   },
   variants: {},
